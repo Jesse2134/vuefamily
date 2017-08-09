@@ -1,5 +1,6 @@
 <template>
   <section>
+    <el-input v-model="msg"></el-input>
     <h1>欢迎入坑, 不过能找到这里,说明你是可以的!</h1>
     <h1>vue+vue-router+axios+vuex+ElementUI</h1>
     <h2>您现在直接可以开始创作了, 但为了更好的编写您的项目, 请认真阅读官方文档.</h2>
@@ -12,7 +13,7 @@
   export default {
     data() {
       return {
-        msg: '',
+        msg: 'hahahaahahhß',
       };
     },
     methods: {
